@@ -1,0 +1,6 @@
+/package-lock.json
+/artifacts/
+/cache/
+/node_modules/
+/.idea/
+/frontend/package-lock.json

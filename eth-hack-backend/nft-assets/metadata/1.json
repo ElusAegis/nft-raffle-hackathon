@@ -1,0 +1,13 @@
+{
+  "description": "The first NFT",
+  "external_url": "https://localhost:7777",
+  "image": "https://ipfs.io/ipfs/QmUwpJRtSR2w77E2bEzsL8VBc5pgrG7uuoX95yV5BPVMvm/1.png",
+  "name": "The Strong",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": 3
+    }
+  ],
+  "background_color": "ffffff"
+}
