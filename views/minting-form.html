@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../public/style.css">
+        <link rel="stylesheet" href="../public/minting-form-style.css">
+        <title>Minting Form</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                    <img src="../img/dark-logo.svg" alt="dark-logo" class="logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="#">ARTISTS</a></li>
+                    <li><a class="nav-link" href="#">RAFFLES</a></li>
+                    <li><a class="nav-link" href="#">ABOUT</a></li>
+                </ul>
+            </nav>
+        </header>  
+
+        <main>
+            <div class="placeholder-container">
+                <img src="../img/icon-plus.png" alt="add nft">
+            </div>
+            <div class="form-container-content">
+                <form class="product-form" action="/admin/add-product" method="POST">
+                    <div class="form-control">
+                        <label for="title">Project Description</label>
+                        <input class="border-input" type="text" name="title" id="title">
+                    </div>
+                    <div class="bot-form">
+                        <p>Set Date:  from: 15/01/2022   Until: 25/01/2022</p>
+                        <button class="btn" type="submit">Raffle your NFT</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <p class="email footer-item">shinew@nftgalleries.com</p>
+        <p class="description-oneLine footer-item">Shinew.xyz is the new way to DROP your NFT’S</p>
+        <p class="location footer-item">London</p>
+    </footer>
+</html>

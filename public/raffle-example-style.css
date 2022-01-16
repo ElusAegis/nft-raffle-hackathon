@@ -1,0 +1,61 @@
+main{
+    display: flex;
+    margin: auto;
+    align-items: stretch;
+}
+
+/* IMG - LEFT */
+
+.img-container{
+    flex: 1;
+}
+
+.img-container-content{
+    max-width: 80%;
+    margin: auto;
+}
+
+.img-container p{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 47px;
+    /* identical to box height */
+    color: #000000;
+}
+
+/* DECRIPTION - RIGHT */
+
+.description-container{
+    flex: 1.5;
+}
+
+.description-container-content{
+    max-width: 86.66%;
+    margin: auto;
+}
+
+.description-container h4{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 37px;
+    color: #999CAD;
+    margin-top: 0.4em;
+}
+
+.description-container p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 135.9%;
+    margin-top: 2em;
+    /* or 27px */
+    color: #000000;
+}
+
+.description-container h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 47px;
+    margin-top: 6em;
+}
