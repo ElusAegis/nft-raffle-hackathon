@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+}
+
+header{
+    display: flex;
+    /*width: 80%;*/
+    margin: auto;
+    align-items: center;
+    background: white;
+
+    /* figma */
+    height: 83px;
+}
+
+.logo-container,.nav-links{
+    display: flex;
+}
+
+.logo-container{
+    flex: 1;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 120px;
+    height: 59px;
+    left: 17px;
+    top: 16px;
+
+    margin-left: 30px
+}
+
+nav{
+    flex: 0.5;
+    margin-right: 30px;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    color: #5E5E5E;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(35.15deg, #F2D8FD 44.12%, #44E2BB 100%);
+}
+.container{
+    width: 90%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container h1{
+    margin-bottom: 1rem;
+
+    /* figma */
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.container  h2{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+
+    /* figma */
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 148.9%;
+}
+
+.container a{
+    text-decoration: none;
+    display: inline-block;
+
+    border-radius: 41.5px;
+    font-size: 1.8rem;
+    padding: 0.5em 2em;
+    margin-top: 1rem;
+    color: white;
+}
+
+.artist-vs-participant{
+    display: flex;
+    justify-content: space-around;
+    max-width: 70%;
+    margin: auto;
+}
+
+.artist-vs-participant p{
+    margin-top: 1rem;
+}
+
+.artist-vs-participant .btn-artist{
+    background-color: black;
+}
+
+.artist-vs-participant .btn-participant{
+    background-color: #FF6A6A;
+}
+
+.raffle-gallery{
+    width: 90%;
+    margin: auto;
+    --gap: 16px;
+    --num-cols: 4;
+    --row-height: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+}
+
+.raffle-gallery > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
