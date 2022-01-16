@@ -322,6 +322,7 @@ export class MyDapp extends React.Component {
     }
 
     async _updateStakedTokens(wallet) {
+        console.log(wallet)
         const walletStake = await this._staker.getUserStakedTokens(wallet);
         console.log(walletStake)
         this.setState( {

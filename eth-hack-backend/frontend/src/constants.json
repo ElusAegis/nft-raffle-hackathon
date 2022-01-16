@@ -1,6 +1,6 @@
 {
-  "stakedToken": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
-  "stakerContract": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
-  "rafflerContract": "0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0",
+  "stakedToken": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "stakerContract": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+  "rafflerContract": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
   "imageUri": "https://ipfs.io/ipfs/QmUwpJRtSR2w77E2bEzsL8VBc5pgrG7uuoX95yV5BPVMvm/"
 }
