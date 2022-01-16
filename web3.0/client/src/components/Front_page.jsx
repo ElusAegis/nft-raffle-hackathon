@@ -1,4 +1,4 @@
-const Front_page = () => {
+const Front_page = ({onArtistPressed, onParticipatePressed}) => {
     return(
         <section id="hero">
             <div className="container">
@@ -8,11 +8,11 @@ const Front_page = () => {
                     <div className="artist-vs-participant">
                         <div className="artist">
                             <p>ARTIST?</p>
-                            <a className="btn-artist" href="#">DROP</a>
+                            <a className="btn-artist" onClick={() => onArtistPressed()}>DROP</a>
                         </div>
                         <div className="participant">
                             <p>NFT LOVER?</p>
-                            <a className="btn-participant" href="#">PARTICIPATE</a>
+                            <a className="btn-participant" onClick={() => onParticipatePressed()}>PARTICIPATE</a>
                         </div>
                     </div>
                 </div>
